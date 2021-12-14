@@ -1,0 +1,11 @@
+//tab 1
+// roscore
+
+//tab 2
+rosrun rosserial_python serial_node.py /dev/ttyACM0
+
+//tab 3
+// rostopic echo tilt_ang
+
+//tab 4
+// rostopic pub -1 tilt_ang std_msgs/UInt16 "data: 45"
